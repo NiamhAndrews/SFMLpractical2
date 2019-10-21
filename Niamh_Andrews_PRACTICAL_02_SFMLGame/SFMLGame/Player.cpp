@@ -5,6 +5,8 @@ Player::~Player(){};
 
 void Player::initialize()
 {
+	sf::Texture playerTexture;
+	sf::Sprite playerSprite;
 	cout << "Player initialize" << endl;
 }
 void Player::update()

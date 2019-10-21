@@ -14,5 +14,7 @@ public:
 	void initialize();
 	void update();
 	void draw();
+	sf::Texture npcTexture;
+	sf::Sprite npcSprite;
 };
 #endif

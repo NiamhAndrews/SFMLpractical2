@@ -14,5 +14,7 @@ public:
 	void initialize();
 	void update();
 	void draw();
+	sf::Texture playerTexture;
+	sf::Sprite playerSprite;
 };
 #endif
